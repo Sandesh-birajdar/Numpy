@@ -23,15 +23,4 @@ In this project, we use NumPy to:
 - Create and manipulate arrays
 - Perform mathematical operations such as matrix multiplication, element-wise operations, and statistical calculations
 
-### Example Code:
-```python
-import numpy as np
 
-# Create a 2x2 matrix
-matrix = np.array([[1, 2], [3, 4]])
-
-# Calculate the transpose of the matrix
-transpose_matrix = np.transpose(matrix)
-
-print("Original Matrix:\n", matrix)
-print("Transpose Matrix:\n", transpose_matrix)
